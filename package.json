@@ -1,0 +1,91 @@
+{
+  "name": "react-hook-validaton-format",
+  "version": "0.0.1",
+  "private": false,
+  "author": {
+    "name": "Boban Mijajlovic",
+    "email": "boban.mijajlovic.rs@gmail.com"
+  },
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib",
+  "keywords": [
+    "react",
+    "validation",
+    "format",
+    "template"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "scripts": {
+    "compile-typescript": "tsc",
+    "start": "react-scripts start",
+    "build": "tsc",
+    "test": "jest --watch src/validation/test/validationFormat.test.tsx",
+    "eject": "react-scripts eject"
+  },
+  "files": [
+    "/lib",
+    "index.js"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.6",
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "@types/classnames": "^2.2.9",
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.23",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.11",
+    "@types/prismjs": "^1.16.0",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router": "^5.1.3",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/validator": "12.0.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
+    "jest": "^24.9.0",
+    "jest-enzyme": "^7.1.2",
+    "jest-extended": "^0.11.2",
+    "material-icons": "^0.3.1",
+    "prismjs": "^1.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "reinspect": "^1.0.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2",
+    "validator": "^12.1.0"
+  }
+}
