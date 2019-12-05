@@ -4,4 +4,4 @@ Examples how to use library [react-hook-custom-validation](https://www.npmjs.com
 
 <hr/>
 
-#### License [MIT] (https://choosealicense.com/licenses/mit)
+#### License [MIT](https://choosealicense.com/licenses/mit)
